@@ -36,7 +36,7 @@ const BonusCard: React.FC<BonusCardProps> = ({ bonus }) => {
           <img
             src={bonus.logo}
             alt={bonus.provider}
-            className={`object-contain drop-shadow-xl ${bonus.id === 'pokerstars' ? 'max-h-24 max-w-[90%]' : 'max-h-16 max-w-[80%]'
+            className={`object-contain drop-shadow-xl transition-transform ${bonus.id === 'pokerstars' ? 'max-h-40 w-auto scale-150' : 'max-h-16 max-w-[80%]'
               }`}
           />
         </div>
