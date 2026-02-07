@@ -9,10 +9,10 @@ const Header: React.FC = () => {
         {/* Logo Section */}
         <div className="flex items-center gap-4">
           <div className="relative h-12 w-12 overflow-hidden rounded-full border-2 border-white/20">
-            {/* Placeholder for User/Logo Avatar */}
+            {/* Logo La Banda Del Rojo */}
             <img
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&auto=format&fit=crop&q=60"
-              alt="Logo"
+              src="/logos/logo.jpg"
+              alt="Logo La Banda Del Rojo"
               className="h-full w-full object-cover"
             />
           </div>

@@ -17,7 +17,7 @@ export const BONUSES: Bonus[] = [
     image: '/fondos/fondo-1.png',
     rollover: 'x1',
     minDeposit: '15€',
-    badge: 'Destacado',
+    // Badge removed
     ctaText: '¡JUEGA AHORA!',
     type: 'poker'
   },
@@ -30,6 +30,7 @@ export const BONUSES: Bonus[] = [
     image: '/fondos/fondo-2.png',
     rollover: 'x3',
     minDeposit: '10€',
+    badge: 'Destacado',
     ctaText: '¡JUEGA AHORA!',
     type: 'sports'
   },
@@ -42,6 +43,7 @@ export const BONUSES: Bonus[] = [
     image: '/fondos/fondo-3.png',
     rollover: 'x30',
     minDeposit: '10€',
+    badge: 'Popular',
     ctaText: '¡JUEGA AHORA!',
     type: 'casino'
   },
@@ -78,7 +80,7 @@ export const BONUSES: Bonus[] = [
     image: '/fondos/fondo-6.png',
     rollover: 'x4',
     minDeposit: '10€',
-    badge: 'Popular',
+    // Badge removed
     ctaText: '¡JUEGA AHORA!',
     type: 'sports'
   },
