@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import BonusGrid from './components/BonusGrid';
 import ResponsibleGaming from './components/ResponsibleGaming';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <BonusGrid />
         <ResponsibleGaming />
       </main>
+      <Footer />
     </div>
   );
 };
