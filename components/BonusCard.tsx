@@ -56,9 +56,14 @@ const BonusCard: React.FC<BonusCardProps> = ({ bonus }) => {
 
         {/* CTA Button */}
         <div className="w-full">
-          <button className="w-full rounded-xl bg-white py-4 text-base font-black uppercase tracking-widest text-black transition-transform hover:scale-105 hover:bg-gray-100 shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+          <a
+            href={bonus.link || '#'}
+            target={bonus.link ? "_blank" : undefined}
+            rel={bonus.link ? "noopener noreferrer" : undefined}
+            className="block w-full text-center rounded-xl bg-white py-4 text-base font-black uppercase tracking-widest text-black transition-transform hover:scale-105 hover:bg-gray-100 shadow-[0_0_20px_rgba(255,255,255,0.3)]"
+          >
             {bonus.ctaText}
-          </button>
+          </a>
         </div>
       </div>
     </div>

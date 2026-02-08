@@ -12,6 +12,7 @@ export interface Bonus {
   ctaText: string;
   type: 'poker' | 'sports' | 'casino';
   isExclusive?: boolean;
+  link?: string;
 }
 
 export interface NavItem {

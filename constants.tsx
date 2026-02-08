@@ -19,7 +19,8 @@ export const BONUSES: Bonus[] = [
     minDeposit: '15€',
     // Badge removed
     ctaText: '¡JUEGA AHORA!',
-    type: 'poker'
+    type: 'poker',
+    link: 'https://bdeal.io/Winamax/139669/1'
   },
   {
     id: 'betfair',
@@ -32,7 +33,8 @@ export const BONUSES: Bonus[] = [
     minDeposit: '10€',
     badge: 'Destacado',
     ctaText: '¡JUEGA AHORA!',
-    type: 'sports'
+    type: 'sports',
+    link: 'https://bdeal.io/Betfair/139662/1'
   },
   {
     id: 'bwin',
@@ -57,7 +59,8 @@ export const BONUSES: Bonus[] = [
     rollover: 'x0',
     minDeposit: '10€',
     ctaText: '¡JUEGA AHORA!',
-    type: 'sports'
+    type: 'sports',
+    link: 'https://bdeal.io/PokerStars/139665/1'
   },
   {
     id: 'speedybet',
@@ -69,7 +72,8 @@ export const BONUSES: Bonus[] = [
     rollover: 'x3',
     minDeposit: '20€',
     ctaText: '¡JUEGA AHORA!',
-    type: 'sports'
+    type: 'sports',
+    link: 'https://bdeal.io/speedybet/139666/1'
   },
   {
     id: 'sportium',
@@ -82,7 +86,8 @@ export const BONUSES: Bonus[] = [
     minDeposit: '10€',
     // Badge removed
     ctaText: '¡JUEGA AHORA!',
-    type: 'sports'
+    type: 'sports',
+    link: 'https://bdeal.io/Sportium/139667/1'
   },
   {
     id: '888',
@@ -94,6 +99,7 @@ export const BONUSES: Bonus[] = [
     rollover: 'x3',
     minDeposit: '10€',
     ctaText: '¡JUEGA AHORA!',
-    type: 'sports'
+    type: 'sports',
+    link: 'https://bdeal.io/888Sport/139719/1'
   }
 ];
